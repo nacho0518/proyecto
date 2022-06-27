@@ -7,6 +7,11 @@
 
 /* Haeder Style*/
 
+section div article img:hover {
+  transform: scale(2);
+  transition-duration: 1s;
+}
+
 header {
   background-color: #020221;
   color: #e17706;
@@ -69,6 +74,8 @@ a:focus {
 a:hover {
   border-bottom: 1px solid;
   background: #ecb96d;
+  transform: translate(12px, 50%);
+
 }
 
 a:active {
@@ -90,7 +97,8 @@ p {
   flex-direction: column;
   justify-content: space-between;
   color: #e17706;
-  background-color: burlywood;
+  background: rgb(74, 102, 168);
+  background: linear-gradient(245deg, rgba(74, 102, 168, 1) 19%, rgba(253, 183, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
   align-items: center;
   text-align: center;
 }
@@ -127,6 +135,7 @@ p {
 
 .card-producto {
   background-color: #e17706;
+  box-shadow: 10px 5px 5px black;
   border: solid 1px black;
   width: 250px;
   padding: 10px;
@@ -629,8 +638,8 @@ h4 {
     grid-template-rows: 1fr 1fr;
     gap: 1px 0px;
     grid-template-areas:
-    "Contacto Horario"
-    "Direccion Medios-de-Pago";
+      "Contacto Horario"
+      "Direccion Medios-de-Pago";
     justify-items: center;
     align-items: center;
   }
