@@ -2,13 +2,52 @@
   margin: 0;
   padding: 0;
   box-sizing: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 
-/* Haeder Style*/
+.row {
+display: flex;
+}
+
+
+/* /* Haeder Style*/
+
+
+.btn:hover {
+
+  color: yellow !important;
+  background-color: rgb(243, 181, 10)!important;
+
+}
+
+.btn {
+
+  color: yellow !important;
+  background-color: black!important;
+
+}
+
+
+.navbar-toggler {
+color:#e17706 !important;  
+}
+
+.navbar-toggler-border-color{
+  color:#e17706 !important;  
+
+}
+.navbar-toggler-icon  {
+  color:#e17706 !important;  
+}
+
+.collapse navbar-collapse  {
+
+  color:#e17706 !important;  
+
+}
 
 section div article img:hover {
-  transform: scale(2);
+  transform: scale(1.2);
   transition-duration: 1s;
 }
 
@@ -59,11 +98,11 @@ a {
 }
 
 a:link {
-  color: #f54d0b;
+  color: rgba(255, 217, 0, 0.938)!important;
 }
 
 a:visited {
-  color: #f54d0b;
+  color: rgba(255, 217, 0, 0.938)!important;
 }
 
 a:focus {
@@ -81,7 +120,7 @@ a:hover {
 a:active {
   background: #ecb96d;
   color: #f5970b;
-}
+}  */
 
 /* Parrafo Style*/
 
@@ -97,8 +136,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   color: #e17706;
-  background: rgb(74, 102, 168);
-  background: linear-gradient(245deg, rgba(74, 102, 168, 1) 19%, rgba(253, 183, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  background-color: #020221;
   align-items: center;
   text-align: center;
 }
@@ -119,10 +157,11 @@ p {
 
 /*------Style Main Home------------*/
 
-.banner {
-  background-image: url(../Image/Fondos/fondohome.jpg);
-  height: 80vh;
-  background-size: cover;
+.card-group {
+
+  padding: 10px !important;
+  justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
@@ -130,11 +169,16 @@ p {
   background-color: #020221;
   padding: 10px;
   text-align: center;
-  color: orangered;
+  color: rgba(255, 217, 0, 0.938)!important;
+}
+
+.contenedor-productos{
+background-color: rgba(255, 217, 0, 0.938)!important;
+
 }
 
 .card-producto {
-  background-color: #e17706;
+  background-color: white;
   box-shadow: 10px 5px 5px black;
   border: solid 1px black;
   width: 250px;
@@ -219,17 +263,25 @@ p {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  background-image: url(../Image/Fondos/fondocontacto2.jpg);
-  background-size: cover;
+  background-image: url(../Image/Fondos/banner-ferreteria5.jpg);
+  background-size: auto;
 }
 
 h4 {
 
   padding: 30px;
-  color: blue;
-  height: 50px;
+  color: rgb(187, 255, 0);
+  height: 20px;
   vertical-align: baseline;
 }
+
+/* h3 {
+
+  padding: 30px;
+  color: rgb(7, 7, 7);
+  height: 20px;
+  vertical-align: baseline;
+} */
 
 .contenedor_mapa {
 
@@ -240,6 +292,11 @@ h4 {
 
 .mapa {
   margin-right: 150px;
+}
+
+ol,
+ul {
+  padding-left: 1px;
 }
 
 /*------------Style Productos--------------------*/
@@ -273,6 +330,27 @@ h4 {
 }
 
 /*------------Style Compras--------------------------------*/
+
+
+
+.breadcrumb {
+    margin-top: 30px;
+    background: #696565;
+  }
+
+  
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:30px; }
+.credit-card-div .small-font { font-size:9px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
+
+.card {
+  box-shadow: 10px 5px 5px black !important;
+  border: solid 1px black !important;
+  width: 100%;
+  padding: 10px !important;
+  border-radius: 15px !important;
+  }
 
 .carrito {
   background-color: rgba(0, 0, 0, 0.1);
@@ -577,8 +655,8 @@ h4 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: #e17706;
-    background-color: burlywood;
+    color: black;
+    background-color: rgb(245, 210, 8);
     align-items: center;
     text-align: center;
   }
