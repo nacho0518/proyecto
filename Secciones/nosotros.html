@@ -8,8 +8,8 @@
     <meta name="keywords"
         content="ferreteria, compras, electricidad, productos, bazar, tornillos, cemento; construccion; destornillador, herramientas">
     <title>Ferreteria la Francesa de Pueyrredon - Art Ferreteria</title>
-    <link rel="shortcut icon" href="../Image/Iconos Media/logo2.png" type="image/x-icon">
-    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="shortcut icon" href="Image/Iconos Media/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,8 +21,8 @@
     <!-- Header -->
     <header>
         <div class="titulo">
-            <a href="../index.html">
-                <h1>Ferreteria la Francesa de Pueyrredon</h1>
+            <a href="./index.html">
+                Ferreteria la Francesa de Pueyrredon
             </a>
         </div>
         <nav class="navbar navbar-expand-lg bg-dark">
@@ -36,21 +36,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                            <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./compras.html">Comprar</a>
+                            <a class="nav-link" href="compras.html">Comprar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -58,7 +58,7 @@
     </header>
     <div class="subheader">
         <div class="logo">
-            <a href="../index.html"><img class="imagen_logo" src="../Image/La Francesa/LOGO.jpg" alt="logo"></a>
+            <img class="imagen_logo" src="../Image/La Francesa/LOGO.jpg" alt="logo">
         </div>
         <div class="contenedor_redes">
             <div class="logoinstagram">
@@ -78,6 +78,44 @@
     </div>
     <!--Main-->
     <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../Image/Carousel/banner-ferreteria.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../Image/Carousel/164634-ferreteria-industrial-san-lorenzo-banner.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Image/Carousel/banner-ferreteria2v2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <section class="banner">
         </section>
         <section class="productos">
@@ -87,18 +125,18 @@
                     <img src="../Image/La Francesa/QUIENES SOMOS.jpg" alt="fotoferreteria" width="100%" height="100%">
                 </div>
                 <div class="textosobrenosotros">
-                    <p>
+                    <p data-aos="fade-right"> 
                         Ferretería de barrio con más de 10 años de experiencia en el rubro:
                     </p>
-                    <p>
+                    <p data-aos="fade-right" > 
                         Sanitarios - Burlonería - Herramientas- Maquinaria - Electricidad - Pintura.
                     </p>
-                    <p>
+                    <p data-aos="fade-right">
                         Altamente reconocidos en la zona por nuestros precios y la gran atención que brindamos todos los
                         días.
                     </p>
-                    <p>
-                        Ubicados en el pleno corazón del barrio de Villa Pueyrredón sobre la Av. Mosconiy esq Condarco
+                    <p data-aos="fade-right">
+                        Ubicados en el pleno corazón del barrio de Villa Pueyrredón sobre la Av. Mosconi y esq Condarco
                     </p>
                 </div>
             </div>
@@ -130,5 +168,10 @@
         </div>
     </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://kit.fontawesome.com/144ddcc15a.js" crossorigin="anonymous"></script>
 </html>

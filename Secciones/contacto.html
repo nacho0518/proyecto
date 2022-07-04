@@ -8,8 +8,8 @@
     <meta name="keywords"
         content="ferreteria, compras, electricidad, productos, bazar, tornillos, cemento; construccion; destornillador, herramientas">
     <title>Ferreteria la Francesa de Pueyrredon - Art Ferreteria</title>
-    <link rel="shortcut icon" href="../Image/Iconos Media/logo2.png" type="image/x-icon">
-    <link rel="stylesheet" href="../style/bootstrap.css">
+    <link rel="shortcut icon" href="Image/Iconos Media/logo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../style/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,8 +22,8 @@
     <!-- Header -->
     <header>
         <div class="titulo">
-            <a href="../index.html">
-                <h1>Ferreteria la Francesa de Pueyrredon</h1>
+            <a href="./index.html">
+                Ferreteria la Francesa de Pueyrredon
             </a>
         </div>
         <nav class="navbar navbar-expand-lg bg-dark">
@@ -37,21 +37,21 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                            <a class="nav-link" href="productos.html">Productos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./compras.html">Comprar</a>
+                            <a class="nav-link" href="compras.html">Comprar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                            <a class="nav-link" href="contacto.html">Contacto</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
                         </li>
                     </ul>
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <button class="btn btn-outline-warning" type="submit">Buscar</button>
                     </form>
                 </div>
             </div>
@@ -59,7 +59,7 @@
     </header>
     <div class="subheader">
         <div class="logo">
-            <a href="../index.html"><img class="imagen_logo" src="../Image/La Francesa/LOGO.jpg" alt="logo"></a>
+            <img class="imagen_logo" src="../Image/La Francesa/LOGO.jpg" alt="logo">
         </div>
         <div class="contenedor_redes">
             <div class="logoinstagram">
@@ -79,16 +79,62 @@
     </div>
     <!--Main-->
     <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="../Image/Carousel/banner-ferreteria.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../Image/Carousel/164634-ferreteria-industrial-san-lorenzo-banner.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="../Image/Carousel/banner-ferreteria2v2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
         <section class="banner">
         </section>
         <section class="productos">
             <h2>CONTACTO</h2>
             <article class="contenedor-contacto">
-                <h4 class="contactarnos">Podes Contactarnos telefónicamente al + 11 54 63 77 32 o enviarnos un
-                    correo mediante el siguiente formulario de contacto:</h4>
-                <h3 class="completar">FORMULARIO DE CONTACTO</h3>
-                <H4 class="enviar">Envie su consulta o reclamo completando el siguiente formulario y será
-                    respondido a la brevedad.</H4>
+                <div class="contenedor-contacto-texto">
+                    <div>
+                        <h4 class="contactarnos">Podes Contactarnos telefónicamente al + 11 54 63 77 32 o enviarnos un
+                            correo mediante el siguiente formulario de contacto:</h4>
+                    </div>
+                    <div>
+                        <h3 class="completar">FORMULARIO DE CONTACTO</h3>
+                    </div>
+                    <div>
+                        <H4 class="enviar">Envie su consulta o reclamo completando el siguiente formulario y será
+                            respondido a la brevedad.</H4>
+                    </div>
+                </div>
                 <div class="contenedor_mapa">
                     <div class="mapa">
                         <iframe
@@ -163,5 +209,5 @@
         </div>
     </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </html>
