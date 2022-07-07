@@ -1,0 +1,9 @@
+.btn {
+    color: yellow;
+    background-color: black;
+    &:hover{
+        color: $color-principal;
+        background-color:$color-background-hover;
+    }
+}
+

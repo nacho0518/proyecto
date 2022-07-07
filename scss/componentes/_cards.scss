@@ -1,0 +1,130 @@
+.card-group {
+
+    padding: 10px !important;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.productos h2 {
+    background-color: $color-background-secundario;
+    padding: 10px;
+    text-align: center;
+    color: $color-principal;
+}
+
+.contenedor-productos {
+    background-color: $color-background-principal ;
+
+}
+
+.card-producto {
+    background-color: $color-background-terciario;
+    box-shadow: 10px 5px 5px $color-secundario;
+    border: solid 1px $color-secundario;
+    width: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1%;
+}
+
+.card-producto img {
+    width: 100%;
+}
+
+.card-producto h3 {
+    text-align: center;
+}
+
+.card-producto p {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.card-producto a {
+    text-decoration: none;
+    border: 2px solid $color-secundario;
+    padding: 5px 5px;
+    background-color: $color-background-secundario;
+    color: $color-principal;
+    border-radius: 10px;
+    &:hover{
+        background-color: $color-background-hover;
+    }
+}
+
+.contenedor-productos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.categorias {
+    background-color: $color-background-secundario;
+}
+
+.categorias__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 10x;
+    border: 2px solid $color-cuarto;
+}
+
+.categorias__lista a {
+    padding: 10px;
+}
+
+.categorias_titulo {
+    text-align: center;
+    background-image: url(../Image/Fondos/bannercategorias.jpg);
+    background-size: cover;
+    color: $color-principal;
+}
+
+
+.card {
+    box-shadow: 10px 5px 5px $color-secundario;
+    border: solid 1px $color-secundario;
+    width: 100%;
+    padding: 10px ;
+    border-radius: 15px;
+}
+
+
+@media screen and (min-width: 750px) and (max-device-width: 1022px) {
+
+    .categorias__lista {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 10px;
+        border-radius: 10x;
+
+    }
+
+    .categorias__lista a {
+        padding: 10px;
+    }
+
+    .categorias_titulo {
+        text-align: center;
+        background-image: url(../Image/Fondos/bannercategorias.jpg);
+        background-size: cover;
+        color: $color-terciario;
+    }
+}       

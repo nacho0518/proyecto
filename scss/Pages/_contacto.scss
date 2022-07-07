@@ -1,0 +1,52 @@
+.contenedor-contacto-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedor-contacto {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-image: url(../Image/Fondos/OIP.jpg);
+    background-size: cover;
+}
+
+.contenedor_mapa {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.mapa {
+    margin-right: 150px;
+}
+
+ol,
+ul {
+    padding-left: 1px;
+}
+
+
+@media screen and (min-width: 479px) and (max-device-width: 749px) {
+
+    .contenedor_mapa {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .contact-form {
+        padding: 10px;
+    }
+
+    .mapa {
+        align-items: center;
+        padding: 10px;
+        margin-right: 0px;
+    }
+}

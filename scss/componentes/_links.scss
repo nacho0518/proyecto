@@ -1,0 +1,37 @@
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:link {
+    color: $color-principal;
+}
+
+a:visited {
+    color: $color-principal;
+}
+
+a:focus {
+    border-bottom: 1px solid;
+    background: $color-terciario;
+}
+
+a:hover {
+    border-bottom: 1px solid;
+    background: $color-cuarto;
+    transform: translate(5px, 30%);
+
+}
+
+a:active {
+    background: $color-terciario;
+    color: $color-terciario;
+}
+
+
+@media screen and (min-width: 1023px) {
+
+    a {
+        padding: 5px;
+    }
+}

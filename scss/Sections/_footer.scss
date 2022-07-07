@@ -1,0 +1,143 @@
+.footer {
+    background-color: $background-color-footer;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer__1 {
+    grid-area: Contacto;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__2 {
+    grid-area: Horario;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__3 {
+    grid-area: Direccion;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__4 {
+    grid-area: Medios-de-Pago;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+
+@media screen and (min-width: 1023px) {
+    .footer {
+        background-color: $background-color-footer;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+
+    .footer__1 {
+        width: 20%;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+
+    .footer__2 {
+        width: 20%;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .footer__3 {
+        width: 20%;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .footer__4 {
+        width: 20%;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+}
+
+
+@media screen and (min-width: 750px) and (max-device-width: 1022px) {
+
+    .footer {
+        background-color: $background-color-footer;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1px 0px;
+        grid-template-areas:
+            "Contacto Horario"
+            "Direccion Medios-de-Pago";
+        justify-items: center;
+        align-items: center;
+    }
+
+    .footer__1 {
+        grid-area: Contacto;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+
+    .footer__2 {
+        grid-area: Horario;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .footer__3 {
+        grid-area: Direccion;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .footer__4 {
+        grid-area: Medios-de-Pago;
+        color: $color-terciario;
+        border-radius: 10x;
+        border: 2px solid $color-secundario;
+        text-align: center;
+        padding: 1%;
+    }
+}

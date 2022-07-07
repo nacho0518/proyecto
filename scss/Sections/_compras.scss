@@ -1,0 +1,81 @@
+.breadcrumb {
+    margin-top: 30px;
+    background: $color-cuarto;
+}
+
+.credit-card-div span {
+    padding-top: 10px;
+}
+
+.credit-card-div img {
+    padding-top: 30px;
+}
+
+.credit-card-div .small-font {
+    font-size: 9px;
+}
+
+.credit-card-div .pad-adjust {
+    padding-top: 10px;
+}
+
+.carrito {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-bottom: solid 3px $color-cuarto;
+    color: $color-cuarto;
+    font-size: 26px;
+    font-weight: 300;
+    padding: 20px 20px 20px 0;
+    margin: 0 0 15px 0;
+}
+
+.contenedor_carrito {
+    width: 750px;
+}
+
+.contenedor_carrito_titulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    color: $color-cuarto;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+    border-bottom: solid 1px $color-cuarto;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 479px) and (max-device-width: 749px) {
+    .carrito {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-bottom: solid 3px $color-cuarto;
+        color: $color-secundario;
+        font-size: 15px;
+        font-weight: 300;
+        padding: 10px;
+    }
+
+    .contenedor_carrito {
+        width: auto;
+    }
+
+    .contenedor_carrito_titulo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        color: $color-cuarto;
+        text-transform: uppercase;
+        border-bottom: solid 1px $color-cuarto;
+        text-align: center;
+    }
+
+    .titulo_carrito2 {
+        display: none;
+    }
+
+    .titulo_carrito3 {
+        display: none;
+    }
+}

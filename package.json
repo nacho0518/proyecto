@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-git",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/main.scss style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nacho0518/proyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nacho0518/proyecto/issues"
+  },
+  "homepage": "https://github.com/nacho0518/proyecto#readme"
+}
