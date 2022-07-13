@@ -216,14 +216,13 @@ header nav ul li {
     display: none;
   }
 }
-
 .footer {
   background-color: black;
   justify-items: center;
   align-items: center;
 }
 
-.footer__1 {
+.footer__1, .footer__4, .footer__3, .footer__2 {
   grid-area: Contacto;
 }
 
@@ -247,6 +246,42 @@ header nav ul li {
   padding: 1%;
 }
 
+/* .footer__1 {
+    grid-area: Contacto;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__2 {
+    grid-area: Horario;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__3 {
+    grid-area: Direccion;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__4 {
+    grid-area: Medios-de-Pago;
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+ */
 @media screen and (min-width: 1023px) {
   .footer {
     background-color: black;
@@ -255,7 +290,7 @@ header nav ul li {
     justify-content: space-between;
     align-items: baseline;
   }
-  .footer__1 {
+  .footer__1, .footer__2, .footer__3, .footer__4 {
     width: 20%;
     color: white;
     border-radius: 10x;
@@ -299,7 +334,7 @@ header nav ul li {
     justify-items: center;
     align-items: center;
   }
-  .footer__1 {
+  .footer__1, .footer__2, .footer__3, .footer__4 {
     grid-area: Contacto;
     color: white;
     border-radius: 10x;
@@ -416,21 +451,6 @@ ul {
   background-color: rgba(255, 217, 0, 0.938);
 }
 
-/* .card-producto {
-  background-color: white;
-  box-shadow: 10px 5px 5px black;
-  border: solid 1px black;
-  width: 250px;
-  padding: 10px;
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 1%;
-} */
-
 .card-producto {
   background-color: white;
   box-shadow: 10px 5px 5px black;
@@ -454,7 +474,6 @@ ul {
   color: rgba(255, 217, 0, 0.938);
   border-radius: 10px;
 }
-
 .card-producto a:hover {
   background-color: grey;
 }
@@ -545,4 +564,4 @@ ul {
   background-color: grey;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

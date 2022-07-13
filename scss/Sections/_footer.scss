@@ -4,7 +4,45 @@
     align-items: center;
 }
 
+$footer: (
+    1:Contacto,
+    2:Horario,
+    3:Direccion,
+    4:Medios-de-Pago,
+);
+
+@each $secciones,
+$nombre in $footer {
+    .footer__#{$secciones} {
+        grid-area: $nombre
+    }
+}
+
 .footer__1 {
+    color: $color-terciario;
+    border-radius: 10x;
+    border: 2px solid $color-secundario;
+    text-align: center;
+    padding: 1%;
+}
+
+.footer__2 {
+
+    @extend .footer__1;
+}
+
+.footer__3 {
+
+    @extend .footer__1;
+}
+
+.footer__4 {
+
+    @extend .footer__1;
+}
+
+
+/* .footer__1 {
     grid-area: Contacto;
     color: $color-terciario;
     border-radius: 10x;
@@ -39,7 +77,7 @@
     text-align: center;
     padding: 1%;
 }
-
+ */
 
 @media screen and (min-width: 1023px) {
     .footer {
