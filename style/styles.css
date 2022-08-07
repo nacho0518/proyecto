@@ -17,7 +17,7 @@ p {
 
 h4 {
   padding: 5px;
-  color: blue;
+  color: grey;
   font-size: 20px;
   vertical-align: baseline;
 }
@@ -332,30 +332,13 @@ header nav ul li {
     padding: 1%;
   }
 }
-.contenedor-contacto-texto {
+
+.titulos_contacto {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
-
-.contenedor-contacto {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  background-image: url(../Image/Fondos/OIP.jpg);
-  background-size: cover;
-}
-
-.contenedor_mapa {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
-}
-
-.mapa {
-  margin-right: 150px;
+  color:  rgba(255, 217, 0, 0.938);
 }
 
 ol,
@@ -544,5 +527,6 @@ ul {
   color: rgba(255, 217, 0, 0.938);
   background-color: grey;
 }
+
 
 /*# sourceMappingURL=styles.css.map */
